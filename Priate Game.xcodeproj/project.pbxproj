@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F72B3CC19873E37001E13DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72B3CB19873E37001E13DC /* Foundation.framework */; };
+		8F72B3CE19873E37001E13DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72B3CD19873E37001E13DC /* CoreGraphics.framework */; };
+		8F72B3D019873E37001E13DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72B3CF19873E37001E13DC /* UIKit.framework */; };
+		8F72B3D619873E37001E13DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F72B3D419873E37001E13DC /* InfoPlist.strings */; };
+		8F72B3D819873E37001E13DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72B3D719873E37001E13DC /* main.m */; };
+		8F72B3DC19873E37001E13DC /* ITIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72B3DB19873E37001E13DC /* ITIAppDelegate.m */; };
+		8F72B3DF19873E37001E13DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F72B3DD19873E37001E13DC /* Main.storyboard */; };
+		8F72B3E219873E37001E13DC /* ITIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72B3E119873E37001E13DC /* ITIViewController.m */; };
+		8F72B3E419873E37001E13DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F72B3E319873E37001E13DC /* Images.xcassets */; };
+		8F72B3EB19873E37001E13DC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72B3EA19873E37001E13DC /* XCTest.framework */; };
+		8F72B3EC19873E37001E13DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72B3CB19873E37001E13DC /* Foundation.framework */; };
+		8F72B3ED19873E37001E13DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F72B3CF19873E37001E13DC /* UIKit.framework */; };
+		8F72B3F519873E37001E13DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F72B3F319873E37001E13DC /* InfoPlist.strings */; };
+		8F72B3F719873E37001E13DC /* Priate_GameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F72B3F619873E37001E13DC /* Priate_GameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F72B3EE19873E37001E13DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F72B3C019873E37001E13DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F72B3C719873E37001E13DC;
+			remoteInfo = "Priate Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F72B3C819873E37001E13DC /* Priate Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Priate Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F72B3CB19873E37001E13DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F72B3CD19873E37001E13DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F72B3CF19873E37001E13DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F72B3D319873E37001E13DC /* Priate Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Priate Game-Info.plist"; sourceTree = "<group>"; };
+		8F72B3D519873E37001E13DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F72B3D719873E37001E13DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F72B3D919873E37001E13DC /* Priate Game-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Priate Game-Prefix.pch"; sourceTree = "<group>"; };
+		8F72B3DA19873E37001E13DC /* ITIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITIAppDelegate.h; sourceTree = "<group>"; };
+		8F72B3DB19873E37001E13DC /* ITIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITIAppDelegate.m; sourceTree = "<group>"; };
+		8F72B3DE19873E37001E13DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F72B3E019873E37001E13DC /* ITIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITIViewController.h; sourceTree = "<group>"; };
+		8F72B3E119873E37001E13DC /* ITIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITIViewController.m; sourceTree = "<group>"; };
+		8F72B3E319873E37001E13DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F72B3E919873E37001E13DC /* Priate GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Priate GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F72B3EA19873E37001E13DC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8F72B3F219873E37001E13DC /* Priate GameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Priate GameTests-Info.plist"; sourceTree = "<group>"; };
+		8F72B3F419873E37001E13DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F72B3F619873E37001E13DC /* Priate_GameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Priate_GameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F72B3C519873E37001E13DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72B3CE19873E37001E13DC /* CoreGraphics.framework in Frameworks */,
+				8F72B3D019873E37001E13DC /* UIKit.framework in Frameworks */,
+				8F72B3CC19873E37001E13DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F72B3E619873E37001E13DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72B3EB19873E37001E13DC /* XCTest.framework in Frameworks */,
+				8F72B3ED19873E37001E13DC /* UIKit.framework in Frameworks */,
+				8F72B3EC19873E37001E13DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F72B3BF19873E37001E13DC = {
+			isa = PBXGroup;
+			children = (
+				8F72B3D119873E37001E13DC /* Priate Game */,
+				8F72B3F019873E37001E13DC /* Priate GameTests */,
+				8F72B3CA19873E37001E13DC /* Frameworks */,
+				8F72B3C919873E37001E13DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F72B3C919873E37001E13DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F72B3C819873E37001E13DC /* Priate Game.app */,
+				8F72B3E919873E37001E13DC /* Priate GameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F72B3CA19873E37001E13DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F72B3CB19873E37001E13DC /* Foundation.framework */,
+				8F72B3CD19873E37001E13DC /* CoreGraphics.framework */,
+				8F72B3CF19873E37001E13DC /* UIKit.framework */,
+				8F72B3EA19873E37001E13DC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F72B3D119873E37001E13DC /* Priate Game */ = {
+			isa = PBXGroup;
+			children = (
+				8F72B3DA19873E37001E13DC /* ITIAppDelegate.h */,
+				8F72B3DB19873E37001E13DC /* ITIAppDelegate.m */,
+				8F72B3DD19873E37001E13DC /* Main.storyboard */,
+				8F72B3E019873E37001E13DC /* ITIViewController.h */,
+				8F72B3E119873E37001E13DC /* ITIViewController.m */,
+				8F72B3E319873E37001E13DC /* Images.xcassets */,
+				8F72B3D219873E37001E13DC /* Supporting Files */,
+			);
+			path = "Priate Game";
+			sourceTree = "<group>";
+		};
+		8F72B3D219873E37001E13DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F72B3D319873E37001E13DC /* Priate Game-Info.plist */,
+				8F72B3D419873E37001E13DC /* InfoPlist.strings */,
+				8F72B3D719873E37001E13DC /* main.m */,
+				8F72B3D919873E37001E13DC /* Priate Game-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F72B3F019873E37001E13DC /* Priate GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F72B3F619873E37001E13DC /* Priate_GameTests.m */,
+				8F72B3F119873E37001E13DC /* Supporting Files */,
+			);
+			path = "Priate GameTests";
+			sourceTree = "<group>";
+		};
+		8F72B3F119873E37001E13DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F72B3F219873E37001E13DC /* Priate GameTests-Info.plist */,
+				8F72B3F319873E37001E13DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F72B3C719873E37001E13DC /* Priate Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F72B3FA19873E37001E13DC /* Build configuration list for PBXNativeTarget "Priate Game" */;
+			buildPhases = (
+				8F72B3C419873E37001E13DC /* Sources */,
+				8F72B3C519873E37001E13DC /* Frameworks */,
+				8F72B3C619873E37001E13DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Priate Game";
+			productName = "Priate Game";
+			productReference = 8F72B3C819873E37001E13DC /* Priate Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F72B3E819873E37001E13DC /* Priate GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F72B3FD19873E37001E13DC /* Build configuration list for PBXNativeTarget "Priate GameTests" */;
+			buildPhases = (
+				8F72B3E519873E37001E13DC /* Sources */,
+				8F72B3E619873E37001E13DC /* Frameworks */,
+				8F72B3E719873E37001E13DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F72B3EF19873E37001E13DC /* PBXTargetDependency */,
+			);
+			name = "Priate GameTests";
+			productName = "Priate GameTests";
+			productReference = 8F72B3E919873E37001E13DC /* Priate GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F72B3C019873E37001E13DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ITI;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "InfoTech Inc";
+				TargetAttributes = {
+					8F72B3E819873E37001E13DC = {
+						TestTargetID = 8F72B3C719873E37001E13DC;
+					};
+				};
+			};
+			buildConfigurationList = 8F72B3C319873E37001E13DC /* Build configuration list for PBXProject "Priate Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F72B3BF19873E37001E13DC;
+			productRefGroup = 8F72B3C919873E37001E13DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F72B3C719873E37001E13DC /* Priate Game */,
+				8F72B3E819873E37001E13DC /* Priate GameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F72B3C619873E37001E13DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72B3E419873E37001E13DC /* Images.xcassets in Resources */,
+				8F72B3D619873E37001E13DC /* InfoPlist.strings in Resources */,
+				8F72B3DF19873E37001E13DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F72B3E719873E37001E13DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72B3F519873E37001E13DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F72B3C419873E37001E13DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72B3D819873E37001E13DC /* main.m in Sources */,
+				8F72B3E219873E37001E13DC /* ITIViewController.m in Sources */,
+				8F72B3DC19873E37001E13DC /* ITIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F72B3E519873E37001E13DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F72B3F719873E37001E13DC /* Priate_GameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F72B3EF19873E37001E13DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F72B3C719873E37001E13DC /* Priate Game */;
+			targetProxy = 8F72B3EE19873E37001E13DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F72B3D419873E37001E13DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F72B3D519873E37001E13DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F72B3DD19873E37001E13DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F72B3DE19873E37001E13DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F72B3F319873E37001E13DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F72B3F419873E37001E13DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F72B3F819873E37001E13DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F72B3F919873E37001E13DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F72B3FB19873E37001E13DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Priate Game/Priate Game-Prefix.pch";
+				INFOPLIST_FILE = "Priate Game/Priate Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F72B3FC19873E37001E13DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Priate Game/Priate Game-Prefix.pch";
+				INFOPLIST_FILE = "Priate Game/Priate Game-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8F72B3FE19873E37001E13DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Priate Game.app/Priate Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Priate Game/Priate Game-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Priate GameTests/Priate GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8F72B3FF19873E37001E13DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Priate Game.app/Priate Game";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Priate Game/Priate Game-Prefix.pch";
+				INFOPLIST_FILE = "Priate GameTests/Priate GameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F72B3C319873E37001E13DC /* Build configuration list for PBXProject "Priate Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F72B3F819873E37001E13DC /* Debug */,
+				8F72B3F919873E37001E13DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F72B3FA19873E37001E13DC /* Build configuration list for PBXNativeTarget "Priate Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F72B3FB19873E37001E13DC /* Debug */,
+				8F72B3FC19873E37001E13DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F72B3FD19873E37001E13DC /* Build configuration list for PBXNativeTarget "Priate GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F72B3FE19873E37001E13DC /* Debug */,
+				8F72B3FF19873E37001E13DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F72B3C019873E37001E13DC /* Project object */;
+}
